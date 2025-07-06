@@ -13,7 +13,7 @@ Whats-Valid is a simple web application that allows you to check if a phone numb
 
 - **Backend**:
   - [Go](https://golang.org/)
-  - [Whatsmeow](https://github.com/maunium/go-whatsmeow): A Go library for the WhatsApp Web API.
+  - [Whatsmeow](https://github.com/tulir/whatsmeow): A Go library for the WhatsApp Web API.
   - [go-sqlite3](https://github.com/mattn/go-sqlite3): For storing session data.
 - **Frontend**:
   - [SvelteKit](https://kit.svelte.dev/)
@@ -100,6 +100,7 @@ This endpoint checks if a given number is on WhatsApp.
 
 ## 📂 Project Structure
 
+```
 .
 ├── main.go # The main Go application file
 ├── go.mod # Go module dependencies
@@ -110,3 +111,4 @@ This endpoint checks if a given number is on WhatsApp.
 │ ├── package.json
 │ └── svelte.config.js
 └── ...
+```
